@@ -34,16 +34,16 @@ public class EX_1 {
         * 나머지 점수는 F를 출력하는 프로그램을 작성하시오.
         *
         * */
-        Scanner scan = new Scanner(System.in);
-        int A = scan.nextInt();
+//        Scanner scan = new Scanner(System.in);
+        int AA = scan.nextInt();
 
-        if(100 == A || A >= 90){
+        if(100 == AA || AA >= 90){
             System.out.println("A");
-        }else if(89 <= A || A >= 80){
+        }else if(89 <= AA || AA >= 80){
             System.out.println("B");
-        }else if(79 <= A || A >= 70){
+        }else if(79 <= AA || AA >= 70){
             System.out.println("C");
-        }else if(69 <= A || A >= 60){
+        }else if(69 <= AA || AA >= 60){
             System.out.println("D");
         }else{
             System.out.println("F");
@@ -62,7 +62,7 @@ public class EX_1 {
         }else{
             System.out.println("0");
         }
-        Scanner scan = new Scanner(System.in);
+//        Scanner scan = new Scanner(System.in);
         int x = scan.nextInt();
         int y = scan.nextInt();
 

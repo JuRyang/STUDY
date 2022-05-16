@@ -20,9 +20,19 @@ public class EX_20220516 {
         System.out.println(number(x));
 
     }
+    //내가 푼 풀이 Fn = Fn-1 + Fn-2  이 조건과 맞지 않음,,!
+    // n = 17일때 값 1597이 안나옴..
+
+//    public static int number(int N) {
+//        if(N <= 0) return 0;
+//        int sum =0;
+//        return  sum = number(N-1)+N;
+//    }
     public static int number(int N) {
-        if(N <= 0) return 0;	// 재귀 종료조건
-        int sum =0;
-        return  sum = number(N-1)+N;
+        if(N == 0) return 0;
+        if(N == 1) return 1;
+
+        return number(N-1)+ number(N-2);
     }
+
 }

@@ -17,6 +17,7 @@ public class EX_20221019 {
 
 
     public static int getGcd(int a, int b) {
+        int [] result = new int[2];
         if(a%b==0) {
             return b;
         }

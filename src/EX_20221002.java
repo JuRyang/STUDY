@@ -42,7 +42,7 @@ public static void main(String[] args) {
 
     //pop: 스택에서 가장 위에 있는 정수를 빼고, 그 수를 출력한다. 만약 스택에 들어있는 정수가 없는 경우에는 -1을 출력한다.
     int pop (){
-        if(size == 0 || stack == null ){
+        if(size == 0 || stack.length == 0 ){
             return  -1;
         }else{
             int y = stack[size - 1];

@@ -9,6 +9,9 @@ import java.util.SimpleTimeZone;
 public class EX_1_동영상재생기 {
 
 
+
+
+
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat format = new SimpleDateFormat("mm:ss");
 

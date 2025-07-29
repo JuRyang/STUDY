@@ -8,15 +8,6 @@ import java.util.SimpleTimeZone;
 
 public class EX_1_동영상재생기 {
 
-    /*
-    *
-    *   첫째 줄에 다음 세 가지 중 하나를 출력한다.
-        A가 B보다 큰 경우에는 '>'를 출력한다.
-        A가 B보다 작은 경우에는 '<'를 출력한다.
-        A와 B가 같은 경우에는 '=='를 출력한다.
-
-    *
-    * */
 
     public static void main(String[] args) throws ParseException {
         SimpleDateFormat format = new SimpleDateFormat("mm:ss");
